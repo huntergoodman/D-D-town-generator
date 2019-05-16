@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="file:///media/fuse/drivefs-12d99bc47e81f5128a9e283c11c03143/root/Code/dndTownGenerator.js"></script>
+    <style>
+     @import url('https://fonts.googleapis.com/css?family=Eagle+Lake');
+      .townName {
+      text-align: center;
+      font-size: 42px;
+      font-family: 'Eagle Lake', cursive;
+      }
+      .town {
+        font-family: 'Eagle Lake', cursive;
+        
+      }
+      
+      .reloadButton {
+        font-family: 'Eagle Lake', cursive;
+        background-color: #ffffff;
+        width: 300px;
+        height: 50px;
+        border: none;
+        outline: none;
+        padding: 5px;
+      }
+      .reloadButton button:hover {
+        border: none;
+        outline: none;
+        padding: 5px;
+      }
+      .reloadButton button:focus {
+        border: none;
+        outline: none;
+        padding: none;
+      }
+      .button {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="button">
+    <button class="reloadButton" onclick="document.location.reload()">Generate new Town</button>
+    </div>
+  <div class="townName">
+    <br>
+    <script>
+      document.write(town);
+    </script>
+  </div>
+  
+  <div class="town">
+    <h1>Description:</h1>
+    
+    <script>
+      document.write(description);
+    </script>
+    <h1>Tavern:</h1>
+    <script>
+      
+    </script>
+    <h1>Blacksmith:</h1>
+    <script>
+      
+    </script>
+    <h1>General Store:</h1>
+    <script>
+      
+    </script>
+  </div>
+  </body>
+</html>
